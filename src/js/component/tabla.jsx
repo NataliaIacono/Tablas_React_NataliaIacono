@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tabla = ({ multiplicador } = 1) => {
+const Tabla = ({ multiplicador } = '') => {
     const numerosFijos = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     return (
         <div>

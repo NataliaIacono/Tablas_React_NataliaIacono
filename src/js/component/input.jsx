@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Input = ({ setMultiplicador }) => {
-    const [inputValue, setInputValue] = useState(0);
+    const [inputValue, setInputValue] = useState('');
     //const [mostrarTabla, setMostrarTabla] = useState(false);
 
     const numeroDelInput = (event) => {
